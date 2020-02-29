@@ -3,12 +3,12 @@ name: Java CI
 on:
   pull_request:
     branches: 
-      - master
       - develop
+      - master
   push:
     branches: 
-      - master
-      - develop   
+      - develop
+      - master   
 
 jobs:
   build:
