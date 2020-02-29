@@ -28,5 +28,7 @@ class MyControllerTest {
                     System.out.println(">>>>>>>>>>>>>>>" + body);
                     assertThat(body.contains("hi")).isTrue();
                 });
+
+        // test 주석 추가
     }
 }
