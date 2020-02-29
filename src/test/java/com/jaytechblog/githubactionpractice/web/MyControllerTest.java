@@ -26,7 +26,7 @@ class MyControllerTest {
                 .consumeWith(res -> {
                     String body = new String(Objects.requireNonNull(res.getResponseBody()));
                     System.out.println(">>>>>>>>>>>>>>>" + body);
-                    assertThat(body.contains("hi")).isTrue();
+                    assertThat(body.contains("hiiiiiiiiiii")).isTrue();
                 });
     }
 }
